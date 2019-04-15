@@ -9,6 +9,6 @@ var advice = ['You call that a problem?  I have turds that try harder than you',
              'get ahold of yourself yer cryin like a weenie']
 function new_advice(){
   
-  var random_number = math.floor(math.random()*(advice.length));
+  var random_number = Math.floor(Math.random()*(advice.length));
 
 document.getElementById('advice_display').innerHTML = advice[random_number];}
