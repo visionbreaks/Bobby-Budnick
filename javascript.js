@@ -11,4 +11,4 @@ function new_advice(){
   
   var random_number = math.floor(math.random()*(advice.length));
 
-document.getElementById('advice_display').innerHTML=advice[random_number];}
+document.getElementById('advice_display').innerHTML = advice[random_number];}
